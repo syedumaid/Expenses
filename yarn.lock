@@ -5488,7 +5488,7 @@ prompts@^2.3.2, prompts@^2.4.0:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@*, prop-types@^15.7.2:
+prop-types@*, prop-types@^15.5.10, prop-types@^15.7.2:
   version "15.8.1"
   resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -5599,6 +5599,14 @@ react-native-codegen@^0.71.5:
     flow-parser "^0.185.0"
     jscodeshift "^0.13.1"
     nullthrows "^1.1.1"
+
+react-native-color-picker@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/react-native-color-picker/-/react-native-color-picker-0.6.0.tgz#3b06eaaa0dfa9d90b45bf37bbb13776625c1fd2b"
+  integrity sha512-CptAssfTEGww97ev5GfaGTwu3IMBbBFi9ZDai1fgYRurQ7oQTcDp00lOoFIgLXr/acHNME2PjL7Ks/c+leVKFg==
+  dependencies:
+    prop-types "^15.5.10"
+    tinycolor2 "^1.4.1"
 
 react-native-gesture-handler@^2.9.0:
   version "2.9.0"
@@ -6524,6 +6532,11 @@ through@2:
   version "2.3.8"
   resolved "https://registry.npmjs.org/through/-/through-2.3.8.tgz"
   integrity sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==
+
+tinycolor2@^1.4.1:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/tinycolor2/-/tinycolor2-1.6.0.tgz#f98007460169b0263b97072c5ae92484ce02d09e"
+  integrity sha512-XPaBkWQJdsf3pLKJV9p4qN/S+fm2Oj8AIPo1BTUhg5oxkvm9+SVEGFdhyOz7tTdUTfvxMiAs4sp6/eZO2Ew+pw==
 
 tmp@^0.0.33:
   version "0.0.33"
