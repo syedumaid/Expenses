@@ -4,7 +4,8 @@ import { ListItem } from "../components/ListItem";
 import ET  from '@expo/vector-icons/Entypo';
 import { theme } from "../theme";
 
-export const Settings = () => (
+export const Settings = ({navigation}) => {
+    return (
     <View style ={{ 
         flexDirection:'column',
         margin : 16,
@@ -22,7 +23,9 @@ export const Settings = () => (
                 size = {20} 
                 />
             }
-            onClick={ () => {} }
+            onClick={ () => {
+                navigation.navigate('Categories');
+            } }
         />
 
          {/* <ListItem 
@@ -38,4 +41,5 @@ export const Settings = () => (
         />
 
     </View>
-);
+    )
+};
